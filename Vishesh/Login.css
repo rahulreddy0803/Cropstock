@@ -1,0 +1,125 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.bg{
+	height: 790px;
+	width: 100%;
+	background-color: lightgrey;
+}
+.box1{
+	height: 790px;
+	width: 60%;
+	float: left;
+}
+.pad{
+	padding: 190px;
+}
+.text1{
+	font-size: 70px;
+	margin: ;
+	color: blue;
+	font-weight: bold;
+	text-shadow: 2px 2px black;
+	margin-top: 60px;
+}
+.text2{
+	font-size: 30px;
+	margin: ;
+}
+
+
+.box2{
+	height: 790px;
+	width: 40%;
+	float: left;
+}
+.box3{
+	height: 400px;
+	width: 70%;
+	background-color: white;
+	float: left;
+	margin-left: 500px;
+	margin-top: 180px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 0px black;
+}
+.text3{
+	height: 50px;
+	width: 100%;
+	font-size: 17px;
+	margin-top: 40px;
+	border-radius: 6px;
+	border: 2px solid silver;
+	text-align: center;
+}
+.text4{
+	height: 50px;
+	width: 100%;
+	font-size: 17px;
+	margin-top: 20px;
+	border-radius: 6px;
+	border: 2px solid silver;
+	text-align: center;
+}
+.box4{
+	height: 50px;
+	width: 100%;
+	font-size: 17px;
+	margin-top: 20px;
+	background-color: darkblue;
+	border-radius: 6px;
+}
+.text5{
+	height: 50px;
+	width: 100%;
+	font-size: 27px;
+	margin-top: 20px;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	margin-left: -19px;
+}
+.text6{
+	
+	font-size: 17px;
+	margin-top: 20px;
+	text-align: center;
+	margin-left: -19px;
+	text-decoration: none;
+
+}
+.text6 a{
+	
+	text-decoration: none;
+	
+}
+.box5{
+	height: 50px;
+	width: 50%;
+	margin-left: 100px;
+	margin-top: 20px;
+	text-align: center;
+	background-color: green;
+	border-radius: 10px;
+}
+.text7{
+	font-size: 20px;
+	color: white;
+	margin-top: 20px;
+	padding: 13px;
+	text-align: center;
+}
+.pad1{
+	padding: 10px;
+}
+.text8{
+	font-size: 20px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 620px;
+}
+.text8 span{
+	
+	font-weight: bold;
+}

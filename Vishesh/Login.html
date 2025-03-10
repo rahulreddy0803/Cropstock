@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+.main {
+width:600px;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  width:500px;
+
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+<script>
+  function success()
+{
+var ph=document.getElementById("ph");
+var pass=document.getElementById("pass");
+if(ph.value=="12345678" &&pass.value=="1234")
+{
+window.open("kisan.html")
+}
+else{
+alert("Invalid credentials");
+}
+  }
+</script>
+</head>
+<body>
+<div class="main">
+<form method="post">
+  <legend style="text-align:center; margin-top:10px;font-size:20px;">CROP STOCK</legend>
+  <div class="imgcontainer">
+    <img src=Logo.jpg
+" width="200" height="200">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Phone Number</b></label>
+    <input type="text" placeholder="Enter Phone Number" id="ph" >
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" id="pass" >
+        <form action="3.html">
+    <a href="index.html">
+ 		<button onclick="success()">LOGIN</button>
+        </a>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <br>
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+</div>
+</form>
+</body>
+</html>
